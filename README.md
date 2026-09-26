@@ -8,6 +8,8 @@
 
 ![python](https://img.shields.io/badge/python-built-black?style=for-the-badge&logo=python) ![streamlit](https://img.shields.io/badge/streamlit-framework-red?style=for-the-badge&logo=streamlit) ![git](https://img.shields.io/badge/git-hub-black?style=for-the-badge&logo=github)
 
+ > _The tech stack provided was built on mdarmor-vx2.streamlit.app_
+
 👨‍💻 How to run it locally
 1. Open the terminal and **Clone the repo**
    ```
@@ -21,7 +23,7 @@
    ```
    streamlit run mdArmor.py
    ```
-   > The tech stack provided was built on mdarmor-vx2.streamlit.app
+  
 
 📂 repo structure
     ```
