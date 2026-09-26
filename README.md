@@ -1,4 +1,4 @@
-<div>
+<div align="center">
   <h1>.mdArmor</h1>
 </div>
 
