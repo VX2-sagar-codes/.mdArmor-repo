@@ -14,9 +14,9 @@
    git clone https://github.com/VX2-sagar-codes/.mdArmor
    ```
 2. **Navigate through the repo**
-  ```
-   cd mdArmor
-  ```
+   ```
+    cd mdArmor
+   ```
 3. **Run this command on your terminal**
    ```
    streamlit run mdArmor.py
