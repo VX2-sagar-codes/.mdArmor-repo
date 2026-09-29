@@ -37,3 +37,8 @@ if len(label) > 0 and len(message) > 0:
   st.code(f"![{label}]({script})")
   st.header("Wanna see how the badge looks like? 😏")
   st.link_button("Check now", script)
+  wrap = st.toggle(label="Wrap a link?", value=False)
+  if wrap:
+     link = st.text_input("paste a link")
+     if len(link) > 0:
+        st.code(f"[![{label}]({script})]({link})")
