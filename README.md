@@ -2,6 +2,8 @@
   <h1>.mdArmor</h1>
 </div>
 
+[![Visit](https://img.shields.io/badge/Visit-NOW-orange?style=for-the-badge&logo=Streamlit)](https://mdarmor-vx2.streamlit.app/)
+
 > .mdArmor is a _markdown shield.io badge link generator_ which you can copy and paste it anywhere in your markdown. It is named as armor because it generates shields (links) 😏
 
 💻 Tech stack
