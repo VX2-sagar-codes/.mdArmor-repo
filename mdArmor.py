@@ -2,7 +2,7 @@ import streamlit as st
 st.set_page_config(
    page_title=".mdArmor"
 )
-st.title("🛡 .mdArmor")
+st.title("🛡 .mdArmor", text_alignment="center")
 st.divider()
 a1, a2 = st.columns(2)
 with a1:
