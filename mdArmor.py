@@ -39,7 +39,6 @@ with tab1:
     5. **Logo**: {logo}
 
     """)
-    """)
   if wrap:
      link = st.text_input("paste a link")
      if len(link) > 0:
