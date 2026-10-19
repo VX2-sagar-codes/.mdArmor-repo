@@ -25,7 +25,8 @@ with tab1:
          st.header("Wanna see how the badge looks like? 😏")
          st.link_button("Check now", script)
     with a2:
-       st.markdown(f"""
+       if len(label) > 0 and len(message) > 0:
+          st.markdown(f"""
     # Requirements
 
     1. **Colour**: {colour}
