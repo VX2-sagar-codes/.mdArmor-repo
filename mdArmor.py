@@ -39,10 +39,7 @@ with tab1:
     5. **Logo**: {logo}
 
     """)
-  if wrap:
-     link = st.text_input("paste a link")
-     if len(link) > 0:
-        st.code(f"[![{label}]({script})]({link})")
+  
 with tab2:
   with st.container(border=true):
      b1, b2 = st.columns(2)
