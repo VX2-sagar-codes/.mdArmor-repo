@@ -18,26 +18,15 @@ with a1:
         message = name_2.replace(" ", "_")
         colour = st.selectbox(label="Colour", options=["blue", "black", "white", "red", "green", "yellow", "pink", "purple", "orange", "indigo"])
 if len(label) > 0 and len(message) > 0:
-  with a2:
-    st.markdown(f"""
-    # Requirements
-
-    1. **Colour**: {colour}
-    
-    2. **Label**: {name}
-
-    3. **Message**: {name_2}
- 
-    4. **Style**: {style}
-    
-    5. **Logo**: {logo}
-
-    """)
   script = f"https://img.shields.io/badge/{label}-{message}-{colour}?style={style}&logo={logo}"
-  st.code(f"![{label}]({script})")
+  code = st.code(f"![{label}]({script})")
   st.header("Wanna see how the badge looks like? 😏")
   st.link_button("Check now", script)
   wrap = st.toggle(label="Wrap a link?", value=False)
+  with a2:
+    st.markdown(f"""
+    {code}
+    """)
   if wrap:
      link = st.text_input("paste a link")
      if len(link) > 0:
