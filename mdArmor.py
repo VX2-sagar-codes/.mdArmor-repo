@@ -41,7 +41,7 @@ with tab1:
     """)
   
 with tab2:
-  with st.container(border=true):
+  with st.container(border=True):
      b1, b2 = st.columns(2)
      username = st.text_input("Enter your github username")
      with b1:
