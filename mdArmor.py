@@ -43,7 +43,7 @@ with tab1:
 with tab2:
   with st.container(border=true):
      b1, b2 = st.columns(2)
-        username = st.text_input("Enter your github username")
+     username = st.text_input("Enter your github username")
      with b1:
        commits = st.checkbox("Include all commits?", value=True)
      with b2:
