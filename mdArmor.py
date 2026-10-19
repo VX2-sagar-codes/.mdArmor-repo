@@ -48,5 +48,5 @@ with tab2:
        commits = st.checkbox("Include all commits?", value=True)
      with b2:
        private = st.checkbox("count private repo?", value=False)
-   if len(name) > 0:
+  if len(username) > 0:
      st.code(f"https://github-readme-stats.shion.dev/api?username={username}&hide_border=false&include_all_commits={commits}&count_private={private}")
